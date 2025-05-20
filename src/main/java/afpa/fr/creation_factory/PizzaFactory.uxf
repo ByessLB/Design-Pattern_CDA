@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>290</x>
-      <y>80</y>
+      <x>850</x>
+      <y>260</y>
       <w>210</w>
       <h>190</h>
     </coordinates>
@@ -18,24 +18,10 @@ Pizza
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>670</x>
-      <y>80</y>
-      <w>210</w>
-      <h>190</h>
-    </coordinates>
-    <panel_attributes>&lt;&lt;INTERFACE&gt;&gt;
-Calzone
---
-+ prepare() : void</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>260</x>
-      <y>370</y>
-      <w>210</w>
-      <h>190</h>
+      <x>650</x>
+      <y>540</y>
+      <w>140</w>
+      <h>100</h>
     </coordinates>
     <panel_attributes>Margherita
 --
@@ -45,14 +31,153 @@ Calzone
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>530</x>
-      <y>360</y>
-      <w>210</w>
-      <h>190</h>
+      <x>810</x>
+      <y>540</y>
+      <w>140</w>
+      <h>100</h>
     </coordinates>
-    <panel_attributes>Margherita
+    <panel_attributes>Pepperoni
 --
 </panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>210</x>
+      <y>260</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>/Pizzaiolo/
+--
+...
+--
+/+ preparePizza(): Pizza/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>970</x>
+      <y>540</y>
+      <w>150</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Regina
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1140</x>
+      <y>540</y>
+      <w>150</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Hawaienne
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>940</x>
+      <y>440</y>
+      <w>30</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>710</x>
+      <y>490</y>
+      <w>520</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>500.0;50.0;500.0;10.0;10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>860</x>
+      <y>490</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>190.0;50.0;190.0;10.0;10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>410</x>
+      <y>340</y>
+      <w>460</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>440.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>340</x>
+      <y>530</y>
+      <w>180</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>ReginaFactory
+--
+...
+--
++ preparePizza() : Pizza
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>370</x>
+      <y>440</y>
+      <w>30</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>100</x>
+      <y>530</y>
+      <w>180</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>PepperoniFactory
+--
+...
+--
++ preparePizza() : Pizza
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>240</x>
+      <y>440</y>
+      <w>30</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
   </element>
 </diagram>
