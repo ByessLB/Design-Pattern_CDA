@@ -1,4 +1,4 @@
-package afpa.fr.creational_singleton;
+package afpa.fr.singleton;
 
 import java.util.Objects;
 

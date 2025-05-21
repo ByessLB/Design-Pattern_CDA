@@ -1,4 +1,4 @@
-package afpa.fr.creation_factory;
+package afpa.fr.factory;
 
 public class ReginaFactory extends Pizzaiolo {
 

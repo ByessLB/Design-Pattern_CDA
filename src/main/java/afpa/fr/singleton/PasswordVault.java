@@ -1,12 +1,15 @@
-package afpa.fr.creational_singleton;
+package afpa.fr.singleton;
 
 import java.util.HashMap;
 
 public class PasswordVault {
+    /**
+     * Instance unique de la classe
+     */
     private static PasswordVault instance;
     private HashMap<String, String> passwordMap;
 
-    // Constructeur privé
+    // Constructeur privé pour empêcher l'instanciation directe
     private PasswordVault() {
         passwordMap = new HashMap<>();
     }
