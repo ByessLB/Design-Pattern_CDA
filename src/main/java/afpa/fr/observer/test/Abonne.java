@@ -1,5 +1,9 @@
 package afpa.fr.observer.test;
 
+/**
+ * <h3>Obeservateur (Abonné)</h3>
+ * chaque abonné a un nom et une méthode pour recevoir une notification
+ */
 public class Abonne implements Observer {
     private String nom;
 
